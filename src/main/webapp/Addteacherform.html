@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style >
+#add{
+display: inline-block;
+background-color: cyan;
+font-size:20px;
+
+}
+.c{
+background-color: skyblue;
+cursor: pointer;
+}
+body{
+background-color: mintcream;
+}
+</style>
+</head>
+<body align="center">
+	<form action="AddTeacher" method="post">
+		<fieldset id="add">
+			<legend style="text-decoration: underline;">Enter the details of Teacher..</legend>
+			<table>
+				<tr>
+					<td>id:</td>
+					<td><input type="text" name="id" required="required"></td>
+				</tr>
+				<tr>
+					<td>name:</td>
+					<td><input type="text" name="name" required="required"></td>
+				</tr>
+				<tr>
+					<td>subject:</td>
+					<td><input type="text" name="subject" required="required"></td>
+				</tr>
+				<tr>
+					<td>salary:</td>
+					<td><input type="text" name="salary" required="required"></td>
+				</tr>
+				<tr>
+				<td><input type="submit" class="c"></td>
+				<td> <input type="Reset" class="c"> </td>
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+
+</body>
+</html>

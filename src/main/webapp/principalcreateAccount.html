@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+body{
+background-color: linen;
+}
+.a{
+cursor: pointer;
+font-size: 15px;
+background-color: blue;
+}
+fieldset{
+display: inline-block;
+background-color: gold;
+}
+#a1{
+font-size: 20px;
+text-shadow: 1px 1px  green;
+text-decoration: underline;
+}
+#a3{
+text-shadow: 1px 1px green ;
+font-size: 20px;
+color: red ;
+
+}
+</style>
+</head>
+<body align="center">
+
+	<form action="saveprincipal" method="post">
+		<fieldset>
+			<legend id="a1"> Registration Form</legend>
+			<table>
+				<tr>
+
+					<td>Enter Id:</td>
+					<td><input type="text" name="id" required="required"></td>
+				</tr>
+				<tr>
+					<td>Enter Name:</td>
+					<td><input type="text" name="name" required="required"></td>
+				</tr>
+				<tr>
+					<td>Enter email:</td>
+					<td><input type="email" name="email" required="required"></td>
+				</tr>
+				<tr>
+					<td>Enter password:</td>
+					<td><input type="password" name="password" required="required"></td>
+				</tr>
+				<tr>
+					<td><input type="Submit" class="a"></td>
+					<td><input type="Reset" class="a"></td>
+					<td id="a3"><a href="home.html" > Back</a></td>
+				</tr>
+			</table>
+		</fieldset>
+
+	</form>
+
+</body>
+</html>

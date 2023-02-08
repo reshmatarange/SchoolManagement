@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+body{
+background-color: ivory ;
+}
+.a {
+	cursor: pointer;
+	background-color: skyblue;
+}
+
+fieldset {
+	display: inline-block;
+	background-color: gold;
+}
+</style>
+</head>
+<body align="center">
+	<form action="addStudent" method="post">
+		<fieldset>
+			<h4>Add Student details..</h4>
+			<table>
+				<tr>
+					<td>Enter Id:</td>
+					<td><input type="text" name="id" required="required"></td>
+				</tr>
+				<tr>
+					<td>Enter Name:</td>
+					<td><input type="text" name="name" required="required"></td>
+				</tr>
+				<tr>
+					<td>Enter Stream:</td>
+					<td><input type="text" name="stream" required="required"></td>
+				</tr>
+				<tr>
+					<td>Enter Fees:</td>
+					<td><input type="text" name="fees" required="required"></td>
+				</tr>
+				<tr>
+					<td><input type="Submit" class="a"></td>
+					<td><input type="Reset" class="a"></td>
+				</tr>
+
+			</table>
+		</fieldset>
+
+	</form>
+
+</body>
+</html>
